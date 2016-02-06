@@ -4,7 +4,7 @@ CC=g++
 STD=_GNU_SOURCE
 ####OBJS=class.o 
 OBJS=launcher.o
-OUTF=aiterm
+OUTF=C3
 .c.o:
 	$(CC) -c -Wall -lstdc++ $(CFLAGS) -D$(STD)$<
 all: build run
